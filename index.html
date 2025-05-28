@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hector Cabello - Mobile Software Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom animations for Hero.tsx */
+    @keyframes pulse-slow {
+      0%, 100% { opacity: 0.2; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.05); }
+    }
+    @keyframes pulse-slower {
+      0%, 100% { opacity: 0.15; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(1.03); }
+    }
+    .animate-pulse-slow {
+      animation: pulse-slow 8s infinite ease-in-out;
+    }
+    .animate-pulse-slower {
+      animation: pulse-slower 10s infinite ease-in-out;
+    }
+    /* Smooth scroll behavior */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-900 text-slate-300 antialiased">
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+</body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
