@@ -1,9 +1,8 @@
-
-import { NavLink, Project, SocialLink, UserProfile } from './types';
-import { GitHubIcon } from './components/icons/GitHubIcon';
-import { LinkedInIcon } from './components/icons/LinkedInIcon';
+import { NavLink, Project, SocialLink, UserProfile } from './types.js';
+import { GitHubIcon } from './components/icons/GitHubIcon.js';
+import { LinkedInIcon } from './components/icons/LinkedInIcon.js';
 // EmailIcon is imported in ContactSection directly, so not needed here for SOCIAL_LINKS
-// import { EmailIcon } from './components/icons/EmailIcon'; 
+// import { EmailIcon } from './components/icons/EmailIcon.js'; 
 
 export const NAV_LINKS: NavLink[] = [
   { href: '#home', label: 'Home' },
@@ -124,6 +123,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
   // {
   //   name: 'Twitter',
   //   url: 'https://twitter.com/yourusername',
-  //   icon: TwitterIcon, // You would need to create TwitterIcon.tsx
+  //   icon: TwitterIcon, // You would need to create TwitterIcon.js
   // },
 ];

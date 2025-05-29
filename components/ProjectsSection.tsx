@@ -1,6 +1,6 @@
 import React from 'react';
-import { Project } from '../types';
-import ProjectCard from './ProjectCard';
+import { Project } from '../types.js';
+import ProjectCard from './ProjectCard.js';
 
 interface ProjectsSectionProps {
   id: string;

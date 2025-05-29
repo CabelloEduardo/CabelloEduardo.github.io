@@ -1,6 +1,6 @@
 import React from 'react';
-import { SocialLink } from '../types';
-import { EmailIcon } from './icons/EmailIcon';
+import { SocialLink } from '../types.js';
+import { EmailIcon } from './icons/EmailIcon.js';
 
 interface ContactSectionProps {
   id: string;

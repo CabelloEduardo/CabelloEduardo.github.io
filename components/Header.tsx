@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from '../types';
-import { MenuIcon } from './icons/MenuIcon';
-import { CloseIcon } from './icons/CloseIcon';
-import { USER_PROFILE } from '../constants';
+import { NavLink } from '../types.js';
+import { MenuIcon } from './icons/MenuIcon.js';
+import { CloseIcon } from './icons/CloseIcon.js';
+import { USER_PROFILE } from '../constants.js';
 
 interface HeaderProps {
   navLinks: NavLink[];

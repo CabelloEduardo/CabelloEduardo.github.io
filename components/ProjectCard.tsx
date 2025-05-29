@@ -1,7 +1,7 @@
 import React from 'react';
-import { Project } from '../types';
-import { GitHubIcon } from './icons/GitHubIcon';
-import { ExternalLinkIcon } from './icons/ExternalLinkIcon';
+import { Project } from '../types.js';
+import { GitHubIcon } from './icons/GitHubIcon.js';
+import { ExternalLinkIcon } from './icons/ExternalLinkIcon.js';
 
 interface ProjectCardProps {
   project: Project;

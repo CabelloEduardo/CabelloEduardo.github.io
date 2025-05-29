@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import AboutSection from './components/AboutSection';
-import ProjectsSection from './components/ProjectsSection';
-import ContactSection from './components/ContactSection';
-import Footer from './components/Footer';
-import { NAV_LINKS, USER_PROFILE, PROJECTS_DATA, SOCIAL_LINKS } from './constants';
+import Header from './components/Header.js';
+import Hero from './components/Hero.js';
+import AboutSection from './components/AboutSection.js';
+import ProjectsSection from './components/ProjectsSection.js';
+import ContactSection from './components/ContactSection.js';
+import Footer from './components/Footer.js';
+import { NAV_LINKS, USER_PROFILE, PROJECTS_DATA, SOCIAL_LINKS } from './constants.js';
 
 const App: React.FC = () => {
   return (
